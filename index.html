@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-to-do-list</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>My to do list</nav>
+    </header>
+    <main>
+        <!-- <img src="" alt="back"> -->
+     <div class="formandtable">
+         <section class="main1">
+            
+         	<form id="formlist"> 
+                 <table>
+                <tr><label for="task">Task</label></tr>
+                <tr><input type="text" required id="task"> </tr> 
+        
+         	              
+         	            <tr>
+                             <label for="date">Date</label>
+                         </tr>
+         	            <tr>
+                             <input type="date" id="date">
+                         </tr>
+         	            <tr>
+         	            	<label for="urgency">Urgency</label>
+         	            	<select name="urgency"  id="urgency">
+         	            
+         	               <option value="1">low</option>
+         	               <option value="2">high</option>
+         	               <option value="3">medium</option>
+             
+                         </select>
+                        </tr>
+         	             <tr>
+                              <input type="submit" id ="submit" > 
+                          </tr>
+                       
+         	       
+                        </table>
+               
+             </form>
+            </table>
+         </section>
+         <section id="tablelist" >
+            
+         </section>
+     </div>
+
+    </main>
+    <footer></footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
